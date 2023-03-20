@@ -287,6 +287,17 @@ header .container {
   animation: appear 1s 1 both;
 }
 
+.tedlink {
+    position: absolute;
+    right:0.6rem;
+    bottom: 0.6rem;
+    opacity: 0.5;
+    color: var(--darkTwo);
+    font-size: 0.6rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
 @keyframes appear {
   0% {
     clip-path: circle(30% at -25% -25%);
